@@ -8204,6 +8204,140 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </deviceset>
 </devicesets>
 </library>
+<library name="memory">
+<description>&lt;b&gt;Generic Memories&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DIL28">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="17.78" y1="6.731" x2="-17.78" y2="6.731" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="-6.731" x2="17.78" y2="-6.731" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="6.731" x2="17.78" y2="-6.731" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="6.731" x2="-17.78" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="-6.731" x2="-17.78" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="1.016" x2="-17.78" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-16.51" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="-3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="16.51" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="16.51" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="21" x="1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="22" x="-1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="23" x="-3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="24" x="-6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="25" x="-8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="26" x="-11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="27" x="-13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="28" x="-16.51" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<text x="-18.161" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="-9.779" y="-0.889" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="27256">
+<wire x1="-10.16" y1="-25.4" x2="5.08" y2="-25.4" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-25.4" x2="5.08" y2="25.4" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="25.4" x2="-10.16" y2="25.4" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="25.4" x2="-10.16" y2="-25.4" width="0.4064" layer="94"/>
+<text x="-10.16" y="26.035" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VPP" x="-15.24" y="-22.86" length="middle" direction="in"/>
+<pin name="A12" x="-15.24" y="-7.62" length="middle" direction="in"/>
+<pin name="A7" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="A6" x="-15.24" y="7.62" length="middle" direction="in"/>
+<pin name="A5" x="-15.24" y="10.16" length="middle" direction="in"/>
+<pin name="A4" x="-15.24" y="12.7" length="middle" direction="in"/>
+<pin name="A3" x="-15.24" y="15.24" length="middle" direction="in"/>
+<pin name="A2" x="-15.24" y="17.78" length="middle" direction="in"/>
+<pin name="A1" x="-15.24" y="20.32" length="middle" direction="in"/>
+<pin name="A0" x="-15.24" y="22.86" length="middle" direction="in"/>
+<pin name="O0" x="10.16" y="22.86" length="middle" direction="hiz" rot="R180"/>
+<pin name="O1" x="10.16" y="20.32" length="middle" direction="hiz" rot="R180"/>
+<pin name="O2" x="10.16" y="17.78" length="middle" direction="hiz" rot="R180"/>
+<pin name="O3" x="10.16" y="15.24" length="middle" direction="hiz" rot="R180"/>
+<pin name="O4" x="10.16" y="12.7" length="middle" direction="hiz" rot="R180"/>
+<pin name="O5" x="10.16" y="10.16" length="middle" direction="hiz" rot="R180"/>
+<pin name="O6" x="10.16" y="7.62" length="middle" direction="hiz" rot="R180"/>
+<pin name="O7" x="10.16" y="5.08" length="middle" direction="hiz" rot="R180"/>
+<pin name="!CE" x="-15.24" y="-17.78" length="middle" direction="in"/>
+<pin name="A10" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="!OE" x="-15.24" y="-20.32" length="middle" direction="in"/>
+<pin name="A11" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="A9" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="A8" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="A13" x="-15.24" y="-10.16" length="middle" direction="in"/>
+<pin name="A14" x="-15.24" y="-12.7" length="middle" direction="in"/>
+</symbol>
+<symbol name="PWRN">
+<text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.905" y="-5.588" size="1.27" layer="95" rot="R90">GND</text>
+<text x="1.905" y="2.413" size="1.27" layer="95" rot="R90">VCC</text>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="27256" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;MEMORY&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="27256" x="22.86" y="0"/>
+<gate name="P" symbol="PWRN" x="-7.62" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="DIL28">
+<connects>
+<connect gate="A" pin="!CE" pad="20"/>
+<connect gate="A" pin="!OE" pad="22"/>
+<connect gate="A" pin="A0" pad="10"/>
+<connect gate="A" pin="A1" pad="9"/>
+<connect gate="A" pin="A10" pad="21"/>
+<connect gate="A" pin="A11" pad="23"/>
+<connect gate="A" pin="A12" pad="2"/>
+<connect gate="A" pin="A13" pad="26"/>
+<connect gate="A" pin="A14" pad="27"/>
+<connect gate="A" pin="A2" pad="8"/>
+<connect gate="A" pin="A3" pad="7"/>
+<connect gate="A" pin="A4" pad="6"/>
+<connect gate="A" pin="A5" pad="5"/>
+<connect gate="A" pin="A6" pad="4"/>
+<connect gate="A" pin="A7" pad="3"/>
+<connect gate="A" pin="A8" pad="25"/>
+<connect gate="A" pin="A9" pad="24"/>
+<connect gate="A" pin="O0" pad="11"/>
+<connect gate="A" pin="O1" pad="12"/>
+<connect gate="A" pin="O2" pad="13"/>
+<connect gate="A" pin="O3" pad="15"/>
+<connect gate="A" pin="O4" pad="16"/>
+<connect gate="A" pin="O5" pad="17"/>
+<connect gate="A" pin="O6" pad="18"/>
+<connect gate="A" pin="O7" pad="19"/>
+<connect gate="A" pin="VPP" pad="1"/>
+<connect gate="P" pin="GND" pad="14"/>
+<connect gate="P" pin="VCC" pad="28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8235,6 +8369,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="MAINGND18" library="supply2" deviceset="GND" device=""/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49US"/>
+<part name="IC1" library="memory" deviceset="27256" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8265,6 +8400,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="C13" gate="G$1" x="132.08" y="147.32"/>
 <instance part="MAINGND18" gate="GND" x="132.08" y="137.16"/>
 <instance part="Y1" gate="G$1" x="162.56" y="172.72" rot="R90"/>
+<instance part="IC1" gate="A" x="276.86" y="160.02"/>
 </instances>
 <busses>
 </busses>

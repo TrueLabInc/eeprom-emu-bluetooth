@@ -8215,7 +8215,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </classes>
 <parts>
 <part name="." library="avr-7" deviceset="MEGA128" device="-A"/>
-<part name="XTAL" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="SMD" value="16MHz"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="MAINGND" library="supply2" deviceset="GND" device=""/>
@@ -8235,6 +8234,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="P+7" library="supply1" deviceset="VCC" device="" value="VCC"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="MAINGND18" library="supply2" deviceset="GND" device=""/>
+<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49US"/>
 </parts>
 <sheets>
 <sheet>
@@ -8245,7 +8245,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="VALUE" x="172.72" y="66.04" size="1.778" layer="96"/>
 <attribute name="NAME" x="172.72" y="184.15" size="1.778" layer="95"/>
 </instance>
-<instance part="XTAL" gate="G$1" x="162.56" y="172.72" rot="R90"/>
 <instance part="C1" gate="G$1" x="152.4" y="175.26" rot="R90"/>
 <instance part="C2" gate="G$1" x="152.4" y="170.18" rot="R90"/>
 <instance part="MAINGND" gate="GND" x="149.86" y="167.64"/>
@@ -8265,26 +8264,27 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="P+7" gate="VCC" x="129.54" y="154.94" rot="R90"/>
 <instance part="C13" gate="G$1" x="132.08" y="147.32"/>
 <instance part="MAINGND18" gate="GND" x="132.08" y="137.16"/>
+<instance part="Y1" gate="G$1" x="162.56" y="172.72" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="XTAL" gate="G$1" pin="1"/>
 <pinref part="." gate="G$1" pin="XTAL1"/>
-<wire x1="162.56" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="170.18" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="170.18" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
 <junction x="162.56" y="170.18"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="XTAL" gate="G$1" pin="2"/>
 <pinref part="." gate="G$1" pin="XTAL2"/>
-<wire x1="162.56" y1="175.26" x2="167.64" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="175.26" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="175.26" x2="157.48" y2="175.26" width="0.1524" layer="91"/>
 <junction x="162.56" y="175.26"/>
 </segment>
