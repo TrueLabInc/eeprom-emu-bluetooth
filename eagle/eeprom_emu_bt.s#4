@@ -9893,6 +9893,28 @@ Based on the following sources:
 <label x="231.14" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="ADDRESS_LOW_BUFFER" gate="A" pin="G1"/>
+<wire x1="393.7" y1="139.7" x2="388.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="139.7" x2="388.62" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="ADDRESS_LOW_BUFFER" gate="A" pin="G2"/>
+<wire x1="388.62" y1="137.16" x2="393.7" y2="137.16" width="0.1524" layer="91"/>
+<junction x="388.62" y="139.7"/>
+<junction x="388.62" y="137.16"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="ADDRESS_HI_AND_CTRL_BUFFER" gate="A" pin="G1"/>
+<wire x1="393.7" y1="99.06" x2="388.62" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="99.06" x2="388.62" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="ADDRESS_HI_AND_CTRL_BUFFER" gate="A" pin="G2"/>
+<wire x1="388.62" y1="96.52" x2="393.7" y2="96.52" width="0.1524" layer="91"/>
+<junction x="388.62" y="99.06"/>
+<junction x="388.62" y="96.52"/>
+</segment>
+</net>
 <net name="CE_CONN" class="0">
 <segment>
 <pinref part="EMU_CONN" gate="A" pin="!CE"/>
@@ -9936,32 +9958,12 @@ Based on the following sources:
 <label x="368.3" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADDR_BUFF_OE" class="0">
+<net name="N$7" class="0">
 <segment>
 <pinref part="." gate="G$1" pin="(MISO)PB3"/>
 <wire x1="220.98" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
 <junction x="228.6" y="147.32"/>
 <label x="231.14" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ADDRESS_LOW_BUFFER" gate="A" pin="G1"/>
-<wire x1="393.7" y1="139.7" x2="388.62" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="139.7" x2="388.62" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="ADDRESS_LOW_BUFFER" gate="A" pin="G2"/>
-<wire x1="388.62" y1="137.16" x2="393.7" y2="137.16" width="0.1524" layer="91"/>
-<junction x="388.62" y="139.7"/>
-<junction x="388.62" y="137.16"/>
-<label x="365.76" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ADDRESS_HI_AND_CTRL_BUFFER" gate="A" pin="G1"/>
-<wire x1="393.7" y1="99.06" x2="388.62" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="99.06" x2="388.62" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="ADDRESS_HI_AND_CTRL_BUFFER" gate="A" pin="G2"/>
-<wire x1="388.62" y1="96.52" x2="393.7" y2="96.52" width="0.1524" layer="91"/>
-<junction x="388.62" y="99.06"/>
-<junction x="388.62" y="96.52"/>
-<label x="365.76" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">

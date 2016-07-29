@@ -9389,11 +9389,11 @@ Based on the following sources:
 <part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="MAINGND18" library="supply2" deviceset="GND" device=""/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49US"/>
-<part name="EMU_CONN" library="memory" deviceset="27256" device=""/>
+<part name="IC1" library="memory" deviceset="27256" device=""/>
 <part name="IC2" library="memory-issi-asynsram" deviceset="IS62C256AL-*" device="U" technology="45"/>
-<part name="DATA_BUFFER" library="74xx-eu" deviceset="74*541" device="DW" technology="HCT"/>
-<part name="ADDRESS_LOW_BUFFER" library="74xx-eu" deviceset="74*541" device="DW" technology="HCT"/>
-<part name="ADDRESS_HI_AND_CTRL_BUFFER" library="74xx-eu" deviceset="74*541" device="DW" technology="HCT"/>
+<part name="IC3" library="74xx-eu" deviceset="74*541" device="DW" technology="HCT"/>
+<part name="IC4" library="74xx-eu" deviceset="74*541" device="DW" technology="HCT"/>
+<part name="IC5" library="74xx-eu" deviceset="74*541" device="DW" technology="HCT"/>
 <part name="BLUETOOTH" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
 </parts>
 <sheets>
@@ -9416,26 +9416,26 @@ Based on the following sources:
 <instance part="MAINGND4" gate="GND" x="119.38" y="137.16"/>
 <instance part="P+1" gate="VCC" x="116.84" y="162.56" rot="R90"/>
 <instance part="P+2" gate="VCC" x="142.24" y="152.4" rot="R90"/>
-<instance part="&lt;-MISO" gate="G$1" x="294.64" y="114.3"/>
-<instance part="MAINGND8" gate="GND" x="307.34" y="106.68"/>
-<instance part="P+3" gate="VCC" x="307.34" y="121.92"/>
+<instance part="&lt;-MISO" gate="G$1" x="312.42" y="111.76"/>
+<instance part="MAINGND8" gate="GND" x="325.12" y="104.14"/>
+<instance part="P+3" gate="VCC" x="325.12" y="119.38"/>
 <instance part="R4" gate="G$1" x="167.64" y="190.5" rot="R90"/>
 <instance part="P+4" gate="VCC" x="167.64" y="200.66"/>
 <instance part="P+7" gate="VCC" x="129.54" y="154.94" rot="R90"/>
 <instance part="C13" gate="G$1" x="132.08" y="147.32"/>
 <instance part="MAINGND18" gate="GND" x="132.08" y="137.16"/>
 <instance part="Y1" gate="G$1" x="162.56" y="172.72" rot="R90"/>
-<instance part="EMU_CONN" gate="A" x="495.3" y="149.86"/>
-<instance part="IC2" gate="SRAM" x="299.72" y="157.48"/>
-<instance part="DATA_BUFFER" gate="A" x="406.4" y="190.5"/>
-<instance part="ADDRESS_LOW_BUFFER" gate="A" x="406.4" y="149.86"/>
-<instance part="ADDRESS_HI_AND_CTRL_BUFFER" gate="A" x="406.4" y="109.22"/>
+<instance part="IC1" gate="A" x="381" y="73.66"/>
+<instance part="IC2" gate="SRAM" x="370.84" y="185.42"/>
+<instance part="IC3" gate="A" x="439.42" y="210.82"/>
+<instance part="IC4" gate="A" x="439.42" y="172.72"/>
+<instance part="IC5" gate="A" x="439.42" y="134.62"/>
 <instance part="BLUETOOTH" gate="G$1" x="119.38" y="101.6"/>
 </instances>
 <busses>
 <bus name="ADDR_SRAM[0..14]">
 <segment>
-<wire x1="274.32" y1="180.34" x2="274.32" y2="144.78" width="0.762" layer="92"/>
+<wire x1="345.44" y1="208.28" x2="345.44" y2="172.72" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="228.6" y1="180.34" x2="228.6" y2="162.56" width="0.762" layer="92"/>
@@ -9446,7 +9446,7 @@ Based on the following sources:
 </bus>
 <bus name="DATA_SRAM[0..7]">
 <segment>
-<wire x1="322.58" y1="180.34" x2="322.58" y2="162.56" width="0.762" layer="92"/>
+<wire x1="393.7" y1="208.28" x2="393.7" y2="190.5" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -9506,8 +9506,8 @@ Based on the following sources:
 <segment>
 <pinref part="&lt;-MISO" gate="G$1" pin="6"/>
 <pinref part="MAINGND8" gate="GND" pin="GND"/>
-<wire x1="304.8" y1="111.76" x2="307.34" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="111.76" x2="307.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="109.22" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="109.22" x2="325.12" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
@@ -9536,8 +9536,8 @@ Based on the following sources:
 <segment>
 <pinref part="&lt;-MISO" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="304.8" y1="116.84" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="116.84" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="114.3" x2="325.12" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="114.3" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -9557,9 +9557,9 @@ Based on the following sources:
 <net name="MOSI" class="0">
 <segment>
 <pinref part="&lt;-MISO" gate="G$1" pin="4"/>
-<wire x1="304.8" y1="114.3" x2="309.88" y2="114.3" width="0.1524" layer="91"/>
-<junction x="309.88" y="114.3"/>
-<label x="312.42" y="114.3" size="1.778" layer="95"/>
+<wire x1="322.58" y1="111.76" x2="327.66" y2="111.76" width="0.1524" layer="91"/>
+<junction x="327.66" y="111.76"/>
+<label x="330.2" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(RXD/PDI)PE0"/>
@@ -9571,9 +9571,9 @@ Based on the following sources:
 <net name="MISO" class="0">
 <segment>
 <pinref part="&lt;-MISO" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="116.84" x2="279.4" y2="116.84" width="0.1524" layer="91"/>
-<junction x="279.4" y="116.84"/>
-<label x="271.78" y="116.84" size="1.778" layer="95"/>
+<wire x1="304.8" y1="114.3" x2="297.18" y2="114.3" width="0.1524" layer="91"/>
+<junction x="297.18" y="114.3"/>
+<label x="289.56" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(TXD/PDO)PE1"/>
@@ -9585,9 +9585,9 @@ Based on the following sources:
 <net name="SCK" class="0">
 <segment>
 <pinref part="&lt;-MISO" gate="G$1" pin="3"/>
-<wire x1="287.02" y1="114.3" x2="279.4" y2="114.3" width="0.1524" layer="91"/>
-<junction x="279.4" y="114.3"/>
-<label x="271.78" y="114.3" size="1.778" layer="95"/>
+<wire x1="304.8" y1="111.76" x2="297.18" y2="111.76" width="0.1524" layer="91"/>
+<junction x="297.18" y="111.76"/>
+<label x="289.56" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(SCK)PB1"/>
@@ -9610,16 +9610,16 @@ Based on the following sources:
 </segment>
 <segment>
 <pinref part="&lt;-MISO" gate="G$1" pin="5"/>
-<wire x1="287.02" y1="111.76" x2="279.4" y2="111.76" width="0.1524" layer="91"/>
-<junction x="279.4" y="111.76"/>
-<label x="271.78" y="111.76" size="1.778" layer="95"/>
+<wire x1="304.8" y1="109.22" x2="297.18" y2="109.22" width="0.1524" layer="91"/>
+<junction x="297.18" y="109.22"/>
+<label x="289.56" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADDR_SRAM14" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A14"/>
-<wire x1="274.32" y1="180.34" x2="281.94" y2="180.34" width="0.1524" layer="91"/>
-<label x="254" y="180.34" size="1.778" layer="95"/>
+<wire x1="345.44" y1="208.28" x2="353.06" y2="208.28" width="0.1524" layer="91"/>
+<label x="325.12" y="208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(A14)PC6"/>
@@ -9630,8 +9630,8 @@ Based on the following sources:
 <net name="ADDR_SRAM13" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A13"/>
-<wire x1="274.32" y1="177.8" x2="281.94" y2="177.8" width="0.1524" layer="91"/>
-<label x="254" y="177.8" size="1.778" layer="95"/>
+<wire x1="345.44" y1="205.74" x2="353.06" y2="205.74" width="0.1524" layer="91"/>
+<label x="325.12" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(A13)PC5"/>
@@ -9642,8 +9642,8 @@ Based on the following sources:
 <net name="ADDR_SRAM12" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A12"/>
-<wire x1="274.32" y1="175.26" x2="281.94" y2="175.26" width="0.1524" layer="91"/>
-<label x="254" y="175.26" size="1.778" layer="95"/>
+<wire x1="345.44" y1="203.2" x2="353.06" y2="203.2" width="0.1524" layer="91"/>
+<label x="325.12" y="203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(A12)PC4"/>
@@ -9654,8 +9654,8 @@ Based on the following sources:
 <net name="ADDR_SRAM11" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A11"/>
-<wire x1="274.32" y1="172.72" x2="281.94" y2="172.72" width="0.1524" layer="91"/>
-<label x="254" y="172.72" size="1.778" layer="95"/>
+<wire x1="345.44" y1="200.66" x2="353.06" y2="200.66" width="0.1524" layer="91"/>
+<label x="325.12" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(A11)PC3"/>
@@ -9666,8 +9666,8 @@ Based on the following sources:
 <net name="ADDR_SRAM10" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A10"/>
-<wire x1="274.32" y1="170.18" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
-<label x="254" y="170.18" size="1.778" layer="95"/>
+<wire x1="345.44" y1="198.12" x2="353.06" y2="198.12" width="0.1524" layer="91"/>
+<label x="325.12" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(A10)PC2"/>
@@ -9678,8 +9678,8 @@ Based on the following sources:
 <net name="ADDR_SRAM9" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A9"/>
-<wire x1="274.32" y1="167.64" x2="281.94" y2="167.64" width="0.1524" layer="91"/>
-<label x="254" y="167.64" size="1.778" layer="95"/>
+<wire x1="345.44" y1="195.58" x2="353.06" y2="195.58" width="0.1524" layer="91"/>
+<label x="325.12" y="195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(A9)PC1"/>
@@ -9690,8 +9690,8 @@ Based on the following sources:
 <net name="ADDR_SRAM8" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A8"/>
-<wire x1="274.32" y1="165.1" x2="281.94" y2="165.1" width="0.1524" layer="91"/>
-<label x="254" y="165.1" size="1.778" layer="95"/>
+<wire x1="345.44" y1="193.04" x2="353.06" y2="193.04" width="0.1524" layer="91"/>
+<label x="325.12" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(A8)PC0"/>
@@ -9702,8 +9702,8 @@ Based on the following sources:
 <net name="ADDR_SRAM7" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A7"/>
-<wire x1="274.32" y1="162.56" x2="281.94" y2="162.56" width="0.1524" layer="91"/>
-<label x="254" y="162.56" size="1.778" layer="95"/>
+<wire x1="345.44" y1="190.5" x2="353.06" y2="190.5" width="0.1524" layer="91"/>
+<label x="325.12" y="190.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(AD7)PA7"/>
@@ -9714,8 +9714,8 @@ Based on the following sources:
 <net name="ADDR_SRAM6" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A6"/>
-<wire x1="274.32" y1="160.02" x2="281.94" y2="160.02" width="0.1524" layer="91"/>
-<label x="254" y="160.02" size="1.778" layer="95"/>
+<wire x1="345.44" y1="187.96" x2="353.06" y2="187.96" width="0.1524" layer="91"/>
+<label x="325.12" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(AD6)PA6"/>
@@ -9726,8 +9726,8 @@ Based on the following sources:
 <net name="ADDR_SRAM5" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A5"/>
-<wire x1="274.32" y1="157.48" x2="281.94" y2="157.48" width="0.1524" layer="91"/>
-<label x="254" y="157.48" size="1.778" layer="95"/>
+<wire x1="345.44" y1="185.42" x2="353.06" y2="185.42" width="0.1524" layer="91"/>
+<label x="325.12" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(AD5)PA5"/>
@@ -9738,8 +9738,8 @@ Based on the following sources:
 <net name="ADDR_SRAM4" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A4"/>
-<wire x1="274.32" y1="154.94" x2="281.94" y2="154.94" width="0.1524" layer="91"/>
-<label x="254" y="154.94" size="1.778" layer="95"/>
+<wire x1="345.44" y1="182.88" x2="353.06" y2="182.88" width="0.1524" layer="91"/>
+<label x="325.12" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(AD4)PA4"/>
@@ -9750,8 +9750,8 @@ Based on the following sources:
 <net name="ADDR_SRAM3" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A3"/>
-<wire x1="274.32" y1="152.4" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
-<label x="254" y="152.4" size="1.778" layer="95"/>
+<wire x1="345.44" y1="180.34" x2="353.06" y2="180.34" width="0.1524" layer="91"/>
+<label x="325.12" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(AD3)PA3"/>
@@ -9762,8 +9762,8 @@ Based on the following sources:
 <net name="ADDR_SRAM2" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A2"/>
-<wire x1="274.32" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
-<label x="254" y="149.86" size="1.778" layer="95"/>
+<wire x1="345.44" y1="177.8" x2="353.06" y2="177.8" width="0.1524" layer="91"/>
+<label x="325.12" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(AD2)PA2"/>
@@ -9774,8 +9774,8 @@ Based on the following sources:
 <net name="ADDR_SRAM1" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A1"/>
-<wire x1="274.32" y1="147.32" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
-<label x="254" y="147.32" size="1.778" layer="95"/>
+<wire x1="345.44" y1="175.26" x2="353.06" y2="175.26" width="0.1524" layer="91"/>
+<label x="325.12" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(AD1)PA1"/>
@@ -9786,8 +9786,8 @@ Based on the following sources:
 <net name="ADDR_SRAM0" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="A0"/>
-<wire x1="274.32" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
-<label x="254" y="144.78" size="1.778" layer="95"/>
+<wire x1="345.44" y1="172.72" x2="353.06" y2="172.72" width="0.1524" layer="91"/>
+<label x="325.12" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="." gate="G$1" pin="(AD0)PA0"/>
@@ -9798,178 +9798,57 @@ Based on the following sources:
 <net name="DATA_SRAM0" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="I/O0"/>
-<wire x1="322.58" y1="162.56" x2="317.5" y2="162.56" width="0.1524" layer="91"/>
-<label x="325.12" y="162.56" size="1.778" layer="95"/>
+<wire x1="393.7" y1="190.5" x2="388.62" y2="190.5" width="0.1524" layer="91"/>
+<label x="396.24" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA_SRAM1" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="I/O1"/>
-<wire x1="322.58" y1="165.1" x2="317.5" y2="165.1" width="0.1524" layer="91"/>
-<label x="325.12" y="165.1" size="1.778" layer="95"/>
+<wire x1="393.7" y1="193.04" x2="388.62" y2="193.04" width="0.1524" layer="91"/>
+<label x="396.24" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA_SRAM2" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="I/O2"/>
-<wire x1="322.58" y1="167.64" x2="317.5" y2="167.64" width="0.1524" layer="91"/>
-<label x="325.12" y="167.64" size="1.778" layer="95"/>
+<wire x1="393.7" y1="195.58" x2="388.62" y2="195.58" width="0.1524" layer="91"/>
+<label x="396.24" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA_SRAM3" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="I/O3"/>
-<wire x1="322.58" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
-<label x="325.12" y="170.18" size="1.778" layer="95"/>
+<wire x1="393.7" y1="198.12" x2="388.62" y2="198.12" width="0.1524" layer="91"/>
+<label x="396.24" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA_SRAM4" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="I/O4"/>
-<wire x1="322.58" y1="172.72" x2="317.5" y2="172.72" width="0.1524" layer="91"/>
-<label x="325.12" y="172.72" size="1.778" layer="95"/>
+<wire x1="393.7" y1="200.66" x2="388.62" y2="200.66" width="0.1524" layer="91"/>
+<label x="396.24" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA_SRAM5" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="I/O5"/>
-<wire x1="322.58" y1="175.26" x2="317.5" y2="175.26" width="0.1524" layer="91"/>
-<label x="325.12" y="175.26" size="1.778" layer="95"/>
+<wire x1="393.7" y1="203.2" x2="388.62" y2="203.2" width="0.1524" layer="91"/>
+<label x="396.24" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA_SRAM6" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="I/O6"/>
-<wire x1="322.58" y1="177.8" x2="317.5" y2="177.8" width="0.1524" layer="91"/>
-<label x="325.12" y="177.8" size="1.778" layer="95"/>
+<wire x1="393.7" y1="205.74" x2="388.62" y2="205.74" width="0.1524" layer="91"/>
+<label x="396.24" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA_SRAM7" class="0">
 <segment>
 <pinref part="IC2" gate="SRAM" pin="I/O7"/>
-<wire x1="322.58" y1="180.34" x2="317.5" y2="180.34" width="0.1524" layer="91"/>
-<label x="325.12" y="180.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SRAM_CE" class="0">
-<segment>
-<pinref part="IC2" gate="SRAM" pin="!CE"/>
-<wire x1="281.94" y1="139.7" x2="274.32" y2="139.7" width="0.1524" layer="91"/>
-<junction x="274.32" y="139.7"/>
-<label x="261.62" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="." gate="G$1" pin="(OC2/OC1C)PB7"/>
-<wire x1="220.98" y1="157.48" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
-<junction x="228.6" y="157.48"/>
-<label x="231.14" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SRAM_OE" class="0">
-<segment>
-<pinref part="IC2" gate="SRAM" pin="!OE"/>
-<wire x1="281.94" y1="137.16" x2="274.32" y2="137.16" width="0.1524" layer="91"/>
-<junction x="274.32" y="137.16"/>
-<label x="261.62" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="." gate="G$1" pin="(OC1B)PB6"/>
-<wire x1="220.98" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
-<junction x="228.6" y="154.94"/>
-<label x="231.14" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SRAM_WE" class="0">
-<segment>
-<pinref part="IC2" gate="SRAM" pin="!WE"/>
-<wire x1="281.94" y1="134.62" x2="274.32" y2="134.62" width="0.1524" layer="91"/>
-<junction x="274.32" y="134.62"/>
-<label x="261.62" y="134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="." gate="G$1" pin="(OC1A)PB5"/>
-<wire x1="220.98" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
-<junction x="228.6" y="152.4"/>
-<label x="231.14" y="152.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CE_CONN" class="0">
-<segment>
-<pinref part="EMU_CONN" gate="A" pin="!CE"/>
-<wire x1="480.06" y1="132.08" x2="474.98" y2="132.08" width="0.1524" layer="91"/>
-<junction x="474.98" y="132.08"/>
-<label x="462.28" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="OE_CONN" class="0">
-<segment>
-<pinref part="EMU_CONN" gate="A" pin="!OE"/>
-<wire x1="480.06" y1="129.54" x2="474.98" y2="129.54" width="0.1524" layer="91"/>
-<junction x="474.98" y="129.54"/>
-<label x="462.28" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="DATA_BUFFER" gate="A" pin="G1"/>
-<wire x1="393.7" y1="180.34" x2="388.62" y2="180.34" width="0.1524" layer="91"/>
-<junction x="388.62" y="180.34"/>
-<label x="368.3" y="180.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="EMU_CONN" gate="A" pin="VPP"/>
-<wire x1="480.06" y1="127" x2="474.98" y2="127" width="0.1524" layer="91"/>
-<junction x="474.98" y="127"/>
-</segment>
-</net>
-<net name="DATA_BUFF_OE2" class="0">
-<segment>
-<pinref part="." gate="G$1" pin="(OC0)PB4"/>
-<wire x1="220.98" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
-<junction x="228.6" y="149.86"/>
-<label x="231.14" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="DATA_BUFFER" gate="A" pin="G2"/>
-<wire x1="393.7" y1="177.8" x2="388.62" y2="177.8" width="0.1524" layer="91"/>
-<junction x="388.62" y="177.8"/>
-<label x="368.3" y="177.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR_BUFF_OE" class="0">
-<segment>
-<pinref part="." gate="G$1" pin="(MISO)PB3"/>
-<wire x1="220.98" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
-<junction x="228.6" y="147.32"/>
-<label x="231.14" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ADDRESS_LOW_BUFFER" gate="A" pin="G1"/>
-<wire x1="393.7" y1="139.7" x2="388.62" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="139.7" x2="388.62" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="ADDRESS_LOW_BUFFER" gate="A" pin="G2"/>
-<wire x1="388.62" y1="137.16" x2="393.7" y2="137.16" width="0.1524" layer="91"/>
-<junction x="388.62" y="139.7"/>
-<junction x="388.62" y="137.16"/>
-<label x="365.76" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ADDRESS_HI_AND_CTRL_BUFFER" gate="A" pin="G1"/>
-<wire x1="393.7" y1="99.06" x2="388.62" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="99.06" x2="388.62" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="ADDRESS_HI_AND_CTRL_BUFFER" gate="A" pin="G2"/>
-<wire x1="388.62" y1="96.52" x2="393.7" y2="96.52" width="0.1524" layer="91"/>
-<junction x="388.62" y="99.06"/>
-<junction x="388.62" y="96.52"/>
-<label x="365.76" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="." gate="G$1" pin="(MOSI)PB2"/>
-<wire x1="220.98" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
-<junction x="228.6" y="144.78"/>
-<label x="231.14" y="144.78" size="1.778" layer="95"/>
+<wire x1="393.7" y1="208.28" x2="388.62" y2="208.28" width="0.1524" layer="91"/>
+<label x="396.24" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
