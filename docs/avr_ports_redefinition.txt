@@ -1,0 +1,7 @@
+#define PORT(port) PORT ## port ## H
+#define DDR(port)  DDR  ## port
+#define PIN(port)  PIN  ## port
+#define __STR2__(x) #x
+#define __STR1__(x) __STR2__(x)
+#define  S PORT(A)
+#pragma message(__STR1__(PORT(a)))
