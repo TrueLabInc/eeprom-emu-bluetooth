@@ -1,0 +1,6 @@
+->sudo hcitool scan
+	-will get mac address of bt device
+	Scanning ...
+	00:11:35:91:36:65	RAV
+->sudo rfcomm bind /dev/rfcomm0 00:02:C7:7D:F5:17 1
+->rfcomm connect 1
