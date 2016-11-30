@@ -1,2 +1,0 @@
-# /bin/bash
-cp -r /home/rafal/workspace_indigo64/bt_eeprom_emulator/* .
