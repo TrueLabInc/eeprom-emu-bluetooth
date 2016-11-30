@@ -1,0 +1,1451 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+                              ./serial.o (__divmodhi4)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+                              ./main.o (__udivmodsi4)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o (exit)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+                              ./emulator.o (__do_copy_data)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+                              ./emulator.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+                              ./emulator.o (__do_global_ctors)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+                              ./timers.o (__umulhisi3)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+                              /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+                              /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o) (__tablejump2__)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o)
+                              ./timers.o (__divsf3)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o) (__divsf3x)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+                              ./timers.o (__fixunssfsi)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(floatsisf.o)
+                              ./timers.o (__floatunsisf)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o) (__fp_inf)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o) (__fp_nan)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o) (__fp_pscA)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o) (__fp_pscB)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o) (__fp_round)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o) (__fp_split3)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o) (__fp_zero)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+                              ./timers.o (__mulsf3)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o) (__mulsf3x)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+                              ./extsram.o (rand)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcat.o)
+                              ./extsram.o (strcat)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strchr.o)
+                              ./serial.o (strchr)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+                              ./serial.o (strcmp)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+                              ./extsram.o (strcpy)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o)
+                              ./bluetooth.o (__ultoa)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o) (__ultoa_ncheck)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa.o)
+                              ./bluetooth.o (__utoa)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa_ncheck.o)
+                              ./extsram.o (__utoa_ncheck)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strrev.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o) (strrev)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o) (__divmodsi4)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o) (__muluhisi3)
+/usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o) (__mulohisi3)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+ .text          0x0000000000000000        0x0 ./bluetooth.o
+ .data          0x0000000000000000        0x0 ./bluetooth.o
+ .bss           0x0000000000000000        0x0 ./bluetooth.o
+ .text._ZN9Bluetooth2atEv
+                0x0000000000000000       0x24 ./bluetooth.o
+ .text._ZN9Bluetooth11put_raw_intEi
+                0x0000000000000000       0x3a ./bluetooth.o
+ .text._ZN9Bluetooth12put_raw_uintEj
+                0x0000000000000000       0x3a ./bluetooth.o
+ .text._ZN9Bluetooth12put_raw_lintEm
+                0x0000000000000000       0x64 ./bluetooth.o
+ .text._ZN9Bluetooth10put_lint_sEmh
+                0x0000000000000000       0x5a ./bluetooth.o
+ .text          0x0000000000000000        0x0 ./buffers_ctrl.o
+ .data          0x0000000000000000        0x0 ./buffers_ctrl.o
+ .bss           0x0000000000000000        0x0 ./buffers_ctrl.o
+ .text          0x0000000000000000        0x0 ./emulator.o
+ .data          0x0000000000000000        0x0 ./emulator.o
+ .bss           0x0000000000000000        0x0 ./emulator.o
+ .text._ZN8Emulator23write_data_to_flash_memEP9Bluetooth
+                0x0000000000000000        0x2 ./emulator.o
+ .data._ZN8Emulator11tmp_str_sizE
+                0x0000000000000000        0x1 ./emulator.o
+ .text          0x0000000000000000        0x0 ./extsram.o
+ .data          0x0000000000000000        0x0 ./extsram.o
+ .bss           0x0000000000000000        0x0 ./extsram.o
+ .text._ZN7Extsram8set_dataEh
+                0x0000000000000000       0x14 ./extsram.o
+ .text._ZN7Extsram12delay_cyclesEh
+                0x0000000000000000        0xc ./extsram.o
+ .text._ZN7Extsram9read_modeEv
+                0x0000000000000000       0x16 ./extsram.o
+ .text._ZN7Extsram16read_single_byteEj
+                0x0000000000000000       0x4c ./extsram.o
+ .text._ZN7Extsram10write_modeEv
+                0x0000000000000000       0x10 ./extsram.o
+ .text._ZN7Extsram17write_single_byteEjh
+                0x0000000000000000       0x48 ./extsram.o
+ .rodata.str1.1
+                0x0000000000000000       0x47 ./extsram.o
+ .text._ZN7Extsram21verify_sram_with_randEPch
+                0x0000000000000000      0x114 ./extsram.o
+ .text          0x0000000000000000        0x0 ./leds.o
+ .data          0x0000000000000000        0x0 ./leds.o
+ .bss           0x0000000000000000        0x0 ./leds.o
+ .text._ZN4Leds7leds_onEv
+                0x0000000000000000        0x8 ./leds.o
+ .text          0x0000000000000000        0x0 ./main.o
+ .data          0x0000000000000000        0x0 ./main.o
+ .bss           0x0000000000000000        0x0 ./main.o
+ .text._Z10check_sramv
+                0x0000000000000000       0x70 ./main.o
+ .text          0x0000000000000000        0x0 ./serial.o
+ .data          0x0000000000000000        0x0 ./serial.o
+ .bss           0x0000000000000000        0x0 ./serial.o
+ .text._ZN14Serial_handler10reset_buffEv
+                0x0000000000000000        0x6 ./serial.o
+ .text._ZN14Serial_handler4initEv
+                0x0000000000000000        0x4 ./serial.o
+ .text._ZN14Serial_handler15strcpy_to_pointEPcS0_S0_
+                0x0000000000000000       0x3c ./serial.o
+ .progmem.data._ZN14Serial_handler3msg6amountE
+                0x0000000000000000        0x7 ./serial.o
+ .progmem.data._ZN14Serial_handler3msg4addrE
+                0x0000000000000000        0x5 ./serial.o
+ .progmem.data._ZN14Serial_handler3msg7timeoutE
+                0x0000000000000000        0x8 ./serial.o
+ .progmem.data._ZN14Serial_handler3msg17wait_for_data_msgE
+                0x0000000000000000        0xe ./serial.o
+ .text          0x0000000000000000        0x0 ./timers.o
+ .data          0x0000000000000000        0x0 ./timers.o
+ .bss           0x0000000000000000        0x0 ./timers.o
+ .text._ZN7Timer16C2ENS_8timer_no1vE
+                0x0000000000000000       0xa0 ./timers.o
+ .text._ZN5TimskC2Ev
+                0x0000000000000000       0x10 ./timers.o
+ .text._ZN5Timsk7bit_setENS_4bitsE
+                0x0000000000000000       0x1c ./timers.o
+ .text._ZN7Timer164initENS_10timer_mode1vENS_9prescaler1vE
+                0x0000000000000000       0x84 ./timers.o
+ .text._ZN7Timer163ticEv
+                0x0000000000000000       0x18 ./timers.o
+ .text._ZN7Timer163tocEv
+                0x0000000000000000       0x3c ./timers.o
+ .data._ZN5Timsk12register_ptrE
+                0x0000000000000000        0x2 ./timers.o
+ .comment       0x0000000000000000       0x12 ./timers.o
+ .text          0x0000000000000000        0x0 ./uart.o
+ .data          0x0000000000000000        0x0 ./uart.o
+ .bss           0x0000000000000000        0x0 ./uart.o
+ .text.uart0_peek
+                0x0000000000000000       0x34 ./uart.o
+ .text.uart1_peek
+                0x0000000000000000       0x34 ./uart.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000000000       0x1e /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xdc /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x5e /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x7a /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xc /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x6 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x22 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x44 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xd2 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+ .text.avr-libc
+                0x0000000000000000       0xb4 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcat.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcat.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcat.o)
+ .text.avr-libc
+                0x0000000000000000       0x16 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcat.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strchr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strchr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strchr.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+ .text.avr-libc
+                0x0000000000000000        0xe /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o)
+ .text.avr-libc
+                0x0000000000000000       0x16 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o)
+ .text.avr-libc
+                0x0000000000000000       0x44 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa_ncheck.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strrev.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strrev.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strrev.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x0000000000000000       0x2e /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000000000000000       0x10 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x0000000000000000       0x16 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .text.libgcc.mul
+                0x0000000000000000       0x10 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800100 0x000000000000ff00 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+Address of section .bootloader set to 0x1e000
+Address of section .image_section set to 0x6000
+LOAD ./bluetooth.o
+LOAD ./buffers_ctrl.o
+LOAD ./emulator.o
+LOAD ./extsram.o
+LOAD ./leds.o
+LOAD ./main.o
+LOAD ./serial.o
+LOAD ./timers.o
+LOAD ./uart.o
+LOAD /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libatmega128.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x12aa
+ *(.vectors)
+ .vectors       0x0000000000000000       0x8c /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000000000008c                . = ALIGN (0x2)
+                0x000000000000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000008c                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data._ZN14Serial_handler3msg7sendingE
+                0x000000000000008c        0x8 ./serial.o
+                0x000000000000008c                _ZN14Serial_handler3msg7sendingE
+ .progmem.data._ZN14Serial_handler3msg12image_loadedE
+                0x0000000000000094        0xd ./serial.o
+                0x0000000000000094                _ZN14Serial_handler3msg12image_loadedE
+ .progmem.data._ZN14Serial_handler3msg10emulator_sE
+                0x00000000000000a1        0xb ./serial.o
+                0x00000000000000a1                _ZN14Serial_handler3msg10emulator_sE
+ .progmem.data._ZN14Serial_handler3msg3nokE
+                0x00000000000000ac        0x4 ./serial.o
+                0x00000000000000ac                _ZN14Serial_handler3msg3nokE
+ .progmem.data._ZN14Serial_handler3msg3ackE
+                0x00000000000000b0        0x4 ./serial.o
+                0x00000000000000b0                _ZN14Serial_handler3msg3ackE
+ .progmem.data._ZN14Serial_handler3msg3endE
+                0x00000000000000b4        0x4 ./serial.o
+                0x00000000000000b4                _ZN14Serial_handler3msg3endE
+ .progmem.data._ZN14Serial_handler3msg9page_sizeE
+                0x00000000000000b8        0xb ./serial.o
+                0x00000000000000b8                _ZN14Serial_handler3msg9page_sizeE
+ .progmem.data._ZN14Serial_handler3msg9handshakeE
+                0x00000000000000c3       0x24 ./serial.o
+                0x00000000000000c3                _ZN14Serial_handler3msg9handshakeE
+ .progmem.data._ZN14Serial_handler3msg16compilation_timeE
+                0x00000000000000e7        0x9 ./serial.o
+                0x00000000000000e7                _ZN14Serial_handler3msg16compilation_timeE
+ .progmem.data._ZN14Serial_handler3msg16compilation_dateE
+                0x00000000000000f0        0xc ./serial.o
+                0x00000000000000f0                _ZN14Serial_handler3msg16compilation_dateE
+                0x00000000000000fc                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000000fc                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000000000000fc        0x2 ./emulator.o
+ .ctors         0x00000000000000fe        0x2 ./main.o
+                0x0000000000000100                __ctors_end = .
+                0x0000000000000100                __dtors_start = .
+ *(.dtors)
+                0x0000000000000100                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000100        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+                0x0000000000000100                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000100        0xc /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000000010c       0x1a /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+                0x000000000000010c                __do_copy_data
+ .init4         0x0000000000000126       0x10 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+                0x0000000000000126                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000000000000136       0x16 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+                0x0000000000000136                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000014c        0x6 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000152        0x2 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+                0x0000000000000152                __vector_22
+                0x0000000000000152                __vector_28
+                0x0000000000000152                __vector_1
+                0x0000000000000152                __vector_32
+                0x0000000000000152                __vector_34
+                0x0000000000000152                __vector_24
+                0x0000000000000152                __vector_12
+                0x0000000000000152                __bad_interrupt
+                0x0000000000000152                __vector_6
+                0x0000000000000152                __vector_3
+                0x0000000000000152                __vector_23
+                0x0000000000000152                __vector_25
+                0x0000000000000152                __vector_11
+                0x0000000000000152                __vector_13
+                0x0000000000000152                __vector_17
+                0x0000000000000152                __vector_7
+                0x0000000000000152                __vector_27
+                0x0000000000000152                __vector_5
+                0x0000000000000152                __vector_33
+                0x0000000000000152                __vector_4
+                0x0000000000000152                __vector_9
+                0x0000000000000152                __vector_2
+                0x0000000000000152                __vector_21
+                0x0000000000000152                __vector_15
+                0x0000000000000152                __vector_29
+                0x0000000000000152                __vector_8
+                0x0000000000000152                __vector_26
+                0x0000000000000152                __vector_14
+                0x0000000000000152                __vector_10
+                0x0000000000000152                __vector_16
+                0x0000000000000152                __vector_20
+                0x0000000000000154                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN9BluetoothC2EmNS_5usartE
+                0x0000000000000154       0x8e ./bluetooth.o
+                0x0000000000000154                _ZN9BluetoothC2EmNS_5usartE
+                0x0000000000000154                _ZN9BluetoothC1EmNS_5usartE
+ .text._ZN9Bluetooth7put_s_nEPKc
+                0x00000000000001e2       0x1a ./bluetooth.o
+                0x00000000000001e2                _ZN9Bluetooth7put_s_nEPKc
+ .text._ZN9Bluetooth9put_s_p_nEPKc
+                0x00000000000001fc       0x1a ./bluetooth.o
+                0x00000000000001fc                _ZN9Bluetooth9put_s_p_nEPKc
+ .text._ZN9Bluetooth5get_sEPch
+                0x0000000000000216       0xac ./bluetooth.o
+                0x0000000000000216                _ZN9Bluetooth5get_sEPch
+ .text._ZN9Bluetooth9put_int_sEih
+                0x00000000000002c2       0x56 ./bluetooth.o
+                0x00000000000002c2                _ZN9Bluetooth9put_int_sEih
+ .text._ZN9Bluetooth11put_c_arrayEPch
+                0x0000000000000318       0x4c ./bluetooth.o
+                0x0000000000000318                _ZN9Bluetooth11put_c_arrayEPch
+ .text._ZN11BuffersCtrlC2Ev
+                0x0000000000000364        0xa ./buffers_ctrl.o
+                0x0000000000000364                _ZN11BuffersCtrlC2Ev
+                0x0000000000000364                _ZN11BuffersCtrlC1Ev
+ .text._ZN8Emulator17read_eeprom_imageEP9Bluetooth
+                0x000000000000036e       0x3c ./emulator.o
+                0x000000000000036e                _ZN8Emulator17read_eeprom_imageEP9Bluetooth
+ .text.startup._GLOBAL__sub_I__Z23write_page_to_flash_memmPh
+                0x00000000000003aa       0x3e ./emulator.o
+ .text._ZN7Extsram3ce_aSE9pin_state.isra.0.part.1
+                0x00000000000003e8        0x4 ./extsram.o
+ .text._ZN7Extsram3oe_aSE9pin_state.isra.2.part.3
+                0x00000000000003ec        0x4 ./extsram.o
+ .text._ZN7Extsram3we_aSE9pin_state.isra.4.part.5
+                0x00000000000003f0        0x4 ./extsram.o
+ .text._ZN7Extsram14high_impedanceEv
+                0x00000000000003f4       0x28 ./extsram.o
+                0x00000000000003f4                _ZN7Extsram14high_impedanceEv
+ .text._ZN7Extsram11set_addressEj
+                0x000000000000041c       0x1a ./extsram.o
+                0x000000000000041c                _ZN7Extsram11set_addressEj
+ .text._ZN7Extsram12default_modeEv
+                0x0000000000000436       0x2e ./extsram.o
+                0x0000000000000436                _ZN7Extsram12default_modeEv
+ .text._ZN7ExtsramC2EP9Bluetooth
+                0x0000000000000464       0x48 ./extsram.o
+                0x0000000000000464                _ZN7ExtsramC1EP9Bluetooth
+                0x0000000000000464                _ZN7ExtsramC2EP9Bluetooth
+ .text._ZN7ExtsramC2Ev
+                0x00000000000004ac       0x48 ./extsram.o
+                0x00000000000004ac                _ZN7ExtsramC1Ev
+                0x00000000000004ac                _ZN7ExtsramC2Ev
+ .text._ZN7Extsram14read_sram_modeEv
+                0x00000000000004f4       0x22 ./extsram.o
+                0x00000000000004f4                _ZN7Extsram14read_sram_modeEv
+ .text._ZN7Extsram10write_dataEjjm
+                0x0000000000000516       0x6a ./extsram.o
+                0x0000000000000516                _ZN7Extsram10write_dataEjjm
+ .text._ZN7Extsram22read_data_and_transmitEjjP9Bluetooth
+                0x0000000000000580       0x60 ./extsram.o
+                0x0000000000000580                _ZN7Extsram22read_data_and_transmitEjjP9Bluetooth
+ .text._ZN4LedsC2Ev
+                0x00000000000005e0        0x8 ./leds.o
+                0x00000000000005e0                _ZN4LedsC2Ev
+                0x00000000000005e0                _ZN4LedsC1Ev
+ .text.startup.main
+                0x00000000000005e8      0x100 ./main.o
+                0x00000000000005e8                main
+ .text.startup._GLOBAL__sub_I_dbg
+                0x00000000000006e8       0x10 ./main.o
+ .text._Z9reset_avrv
+                0x00000000000006f8       0x12 ./serial.o
+                0x00000000000006f8                _Z9reset_avrv
+ .text._ZN14Serial_handlerC2EP9BluetoothP4Leds
+                0x000000000000070a       0x38 ./serial.o
+                0x000000000000070a                _ZN14Serial_handlerC1EP9BluetoothP4Leds
+                0x000000000000070a                _ZN14Serial_handlerC2EP9BluetoothP4Leds
+ .text._ZN14Serial_handler12is_in_bufferEPKcNS_8switchesE
+                0x0000000000000742       0x40 ./serial.o
+                0x0000000000000742                _ZN14Serial_handler12is_in_bufferEPKcNS_8switchesE
+ .text._ZN14Serial_handler7emulateEv
+                0x0000000000000782       0x1c ./serial.o
+                0x0000000000000782                _ZN14Serial_handler7emulateEv
+ .text._ZN14Serial_handler11pinb_changeEv
+                0x000000000000079e        0xa ./serial.o
+                0x000000000000079e                _ZN14Serial_handler11pinb_changeEv
+ .text._ZN14Serial_handler10read_flashEv
+                0x00000000000007a8        0xa ./serial.o
+                0x00000000000007a8                _ZN14Serial_handler10read_flashEv
+ .text._ZN14Serial_handler9handshakeEv
+                0x00000000000007b2       0x76 ./serial.o
+                0x00000000000007b2                _ZN14Serial_handler9handshakeEv
+ .text._ZN14Serial_handler12receive_pageEPhj
+                0x0000000000000828       0x7a ./serial.o
+                0x0000000000000828                _ZN14Serial_handler12receive_pageEPhj
+ .text._ZN14Serial_handler8calc_crcEPhj
+                0x00000000000008a2       0x48 ./serial.o
+                0x00000000000008a2                _ZN14Serial_handler8calc_crcEPhj
+ .text._ZN14Serial_handler37receive_and_write_page_with_crc_checkEm
+                0x00000000000008ea       0xd6 ./serial.o
+                0x00000000000008ea                _ZN14Serial_handler37receive_and_write_page_with_crc_checkEm
+ .text._ZN14Serial_handler17retransmition_reqEPhhh
+                0x00000000000009c0       0xd0 ./serial.o
+                0x00000000000009c0                _ZN14Serial_handler17retransmition_reqEPhhh
+ .text._ZN14Serial_handler12receive_dataEv
+                0x0000000000000a90      0x160 ./serial.o
+                0x0000000000000a90                _ZN14Serial_handler12receive_dataEv
+ .text._ZN14Serial_handler6handleEv
+                0x0000000000000bf0      0x1ce ./serial.o
+                0x0000000000000bf0                _ZN14Serial_handler6handleEv
+ .text.__vector_18
+                0x0000000000000dbe       0x6e ./uart.o
+                0x0000000000000dbe                __vector_18
+ .text.__vector_19
+                0x0000000000000e2c       0x56 ./uart.o
+                0x0000000000000e2c                __vector_19
+ .text.uart0_init
+                0x0000000000000e82       0x52 ./uart.o
+                0x0000000000000e82                uart0_init
+ .text.uart0_getc
+                0x0000000000000ed4       0x3a ./uart.o
+                0x0000000000000ed4                uart0_getc
+ .text.uart0_putc
+                0x0000000000000f0e       0x2a ./uart.o
+                0x0000000000000f0e                uart0_putc
+ .text.uart0_puts
+                0x0000000000000f38       0x16 ./uart.o
+                0x0000000000000f38                uart0_puts
+ .text.uart0_puts_p
+                0x0000000000000f4e       0x1c ./uart.o
+                0x0000000000000f4e                uart0_puts_p
+ .text.uart0_available
+                0x0000000000000f6a       0x16 ./uart.o
+                0x0000000000000f6a                uart0_available
+ .text.uart0_flush
+                0x0000000000000f80        0xa ./uart.o
+                0x0000000000000f80                uart0_flush
+ .text.__vector_30
+                0x0000000000000f8a       0x72 ./uart.o
+                0x0000000000000f8a                __vector_30
+ .text.__vector_31
+                0x0000000000000ffc       0x60 ./uart.o
+                0x0000000000000ffc                __vector_31
+ .text.uart1_init
+                0x000000000000105c       0x58 ./uart.o
+                0x000000000000105c                uart1_init
+ .text.uart1_getc
+                0x00000000000010b4       0x3a ./uart.o
+                0x00000000000010b4                uart1_getc
+ .text.uart1_putc
+                0x00000000000010ee       0x32 ./uart.o
+                0x00000000000010ee                uart1_putc
+ .text.uart1_puts
+                0x0000000000001120       0x18 ./uart.o
+                0x0000000000001120                uart1_puts
+ .text.uart1_puts_p
+                0x0000000000001138       0x1c ./uart.o
+                0x0000000000001138                uart1_puts_p
+ .text.uart1_available
+                0x0000000000001154       0x16 ./uart.o
+                0x0000000000001154                uart1_available
+ .text.uart1_flush
+                0x000000000000116a        0xa ./uart.o
+                0x000000000000116a                uart1_flush
+ .text.libgcc.div
+                0x0000000000001174       0x26 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+                0x0000000000001174                __divmodhi4
+                0x0000000000001174                _div
+ .text.libgcc.div
+                0x000000000000119a       0x44 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+                0x000000000000119a                __udivmodsi4
+ .text.libgcc.div
+                0x00000000000011de       0x28 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+                0x00000000000011de                __udivmodhi4
+ .text.libgcc   0x0000000000001206       0x12 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+                0x0000000000001206                __tablejump2__
+ .text.avr-libc
+                0x0000000000001218       0x16 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strchr.o)
+                0x0000000000001218                strchr
+ .text.avr-libc
+                0x000000000000122e       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+                0x000000000000122e                strcmp
+ .text.avr-libc
+                0x0000000000001240       0x14 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa.o)
+                0x0000000000001240                utoa
+                0x0000000000001240                __utoa
+ .text.avr-libc
+                0x0000000000001254       0x32 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa_ncheck.o)
+                0x0000000000001254                __utoa_ncheck
+                0x0000000000001256                __utoa_common
+ .text.avr-libc
+                0x0000000000001286       0x20 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strrev.o)
+                0x0000000000001286                strrev
+                0x00000000000012a6                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000012a6        0x0 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+                0x00000000000012a6                exit
+                0x00000000000012a6                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000012a6        0x4 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000012aa                _etext = .
+
+.data           0x0000000000800100       0x7e load address 0x00000000000012aa
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data._ZN8Emulator21eeprom1_image_addressE
+                0x0000000000800100        0x4 ./emulator.o
+                0x0000000000800100                _ZN8Emulator21eeprom1_image_addressE
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800104        0x6 ./main.o
+ .rodata.str1.1
+                0x000000000080010a       0x74 ./serial.o
+                                         0x7a (size before relaxing)
+ *(.gnu.linkonce.d*)
+                0x000000000080017e                . = ALIGN (0x2)
+                0x000000000080017e                _edata = .
+                0x000000000080017e                PROVIDE (__data_end, .)
+
+.bss            0x000000000080017e       0x9f
+                0x000000000080017e                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss._ZN8Emulator21eeprom3_image_addressE
+                0x000000000080017e        0x4 ./emulator.o
+                0x000000000080017e                _ZN8Emulator21eeprom3_image_addressE
+ .bss._ZN8Emulator21eeprom2_image_addressE
+                0x0000000000800182        0x4 ./emulator.o
+                0x0000000000800182                _ZN8Emulator21eeprom2_image_addressE
+ .bss.dbg       0x0000000000800186        0xd ./main.o
+                0x0000000000800186                dbg
+ .bss.UART1_LastRxError
+                0x0000000000800193        0x1 ./uart.o
+ .bss.UART1_RxTail
+                0x0000000000800194        0x1 ./uart.o
+ .bss.UART1_RxHead
+                0x0000000000800195        0x1 ./uart.o
+ .bss.UART1_TxTail
+                0x0000000000800196        0x1 ./uart.o
+ .bss.UART1_TxHead
+                0x0000000000800197        0x1 ./uart.o
+ .bss.UART1_RxBuf
+                0x0000000000800198       0x20 ./uart.o
+ .bss.UART1_TxBuf
+                0x00000000008001b8       0x20 ./uart.o
+ .bss.UART_LastRxError
+                0x00000000008001d8        0x1 ./uart.o
+ .bss.UART_RxTail
+                0x00000000008001d9        0x1 ./uart.o
+ .bss.UART_RxHead
+                0x00000000008001da        0x1 ./uart.o
+ .bss.UART_TxTail
+                0x00000000008001db        0x1 ./uart.o
+ .bss.UART_TxHead
+                0x00000000008001dc        0x1 ./uart.o
+ .bss.UART_RxBuf
+                0x00000000008001dd       0x20 ./uart.o
+ .bss.UART_TxBuf
+                0x00000000008001fd       0x20 ./uart.o
+ *(COMMON)
+                0x000000000080021d                PROVIDE (__bss_end, .)
+                0x00000000000012aa                __data_load_start = LOADADDR (.data)
+                0x0000000000001328                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x000000000080021d        0x0
+                0x000000000080021d                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x000000000080021d                PROVIDE (__noinit_end, .)
+                0x000000000080021d                _end = .
+                0x000000000080021d                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 ./bluetooth.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 ./buffers_ctrl.o
+ .comment       0x0000000000000011       0x12 ./emulator.o
+ .comment       0x0000000000000011       0x12 ./extsram.o
+ .comment       0x0000000000000011       0x12 ./leds.o
+ .comment       0x0000000000000011       0x12 ./main.o
+ .comment       0x0000000000000011       0x12 ./serial.o
+ .comment       0x0000000000000011       0x12 ./uart.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(bt_eeprom_emulator.elf elf32-avr)
+LOAD linker stubs
+
+.bootloader     0x000000000001e000       0xb6
+ .bootloader    0x000000000001e000       0xb6 ./emulator.o
+                0x000000000001e000                _Z23write_page_to_flash_memmPh
+
+.image_section  0x0000000000006000        0x0
+
+Cross Reference Table
+
+Symbol                                            File
+_Z10check_sramv                                   ./main.o
+_Z23write_page_to_flash_memmPh                    ./emulator.o
+                                                  ./serial.o
+_Z9reset_avrv                                     ./serial.o
+_ZN11BuffersCtrlC1Ev                              ./buffers_ctrl.o
+                                                  ./serial.o
+                                                  ./main.o
+_ZN11BuffersCtrlC2Ev                              ./buffers_ctrl.o
+_ZN14Serial_handler10read_flashEv                 ./serial.o
+_ZN14Serial_handler10reset_buffEv                 ./serial.o
+_ZN14Serial_handler11pinb_changeEv                ./serial.o
+_ZN14Serial_handler12is_in_bufferEPKcNS_8switchesE ./serial.o
+_ZN14Serial_handler12receive_dataEv               ./serial.o
+_ZN14Serial_handler12receive_pageEPhj             ./serial.o
+_ZN14Serial_handler15strcpy_to_pointEPcS0_S0_     ./serial.o
+_ZN14Serial_handler17retransmition_reqEPhhh       ./serial.o
+_ZN14Serial_handler37receive_and_write_page_with_crc_checkEm ./serial.o
+_ZN14Serial_handler3msg10emulator_sE              ./serial.o
+_ZN14Serial_handler3msg12image_loadedE            ./serial.o
+_ZN14Serial_handler3msg16compilation_dateE        ./serial.o
+_ZN14Serial_handler3msg16compilation_timeE        ./serial.o
+_ZN14Serial_handler3msg17wait_for_data_msgE       ./serial.o
+_ZN14Serial_handler3msg3ackE                      ./serial.o
+_ZN14Serial_handler3msg3endE                      ./serial.o
+_ZN14Serial_handler3msg3nokE                      ./serial.o
+_ZN14Serial_handler3msg4addrE                     ./serial.o
+_ZN14Serial_handler3msg6amountE                   ./serial.o
+_ZN14Serial_handler3msg7sendingE                  ./serial.o
+_ZN14Serial_handler3msg7timeoutE                  ./serial.o
+_ZN14Serial_handler3msg9handshakeE                ./serial.o
+_ZN14Serial_handler3msg9page_sizeE                ./serial.o
+_ZN14Serial_handler4initEv                        ./serial.o
+_ZN14Serial_handler6handleEv                      ./serial.o
+                                                  ./main.o
+_ZN14Serial_handler7emulateEv                     ./serial.o
+_ZN14Serial_handler8calc_crcEPhj                  ./serial.o
+_ZN14Serial_handler9handshakeEv                   ./serial.o
+                                                  ./main.o
+_ZN14Serial_handlerC1EP9BluetoothP4Leds           ./serial.o
+                                                  ./main.o
+_ZN14Serial_handlerC2EP9BluetoothP4Leds           ./serial.o
+_ZN4Leds7leds_onEv                                ./leds.o
+_ZN4LedsC1Ev                                      ./leds.o
+                                                  ./main.o
+_ZN4LedsC2Ev                                      ./leds.o
+_ZN5Timsk12register_ptrE                          ./timers.o
+_ZN5Timsk7bit_setENS_4bitsE                       ./timers.o
+_ZN5TimskC1Ev                                     ./timers.o
+_ZN5TimskC2Ev                                     ./timers.o
+_ZN7Extsram10write_dataEjjm                       ./extsram.o
+                                                  ./serial.o
+                                                  ./main.o
+_ZN7Extsram10write_modeEv                         ./extsram.o
+_ZN7Extsram11set_addressEj                        ./extsram.o
+_ZN7Extsram12default_modeEv                       ./extsram.o
+_ZN7Extsram12delay_cyclesEh                       ./extsram.o
+_ZN7Extsram14high_impedanceEv                     ./extsram.o
+                                                  ./serial.o
+_ZN7Extsram14read_sram_modeEv                     ./extsram.o
+_ZN7Extsram16read_single_byteEj                   ./extsram.o
+_ZN7Extsram17write_single_byteEjh                 ./extsram.o
+_ZN7Extsram21verify_sram_with_randEPch            ./extsram.o
+                                                  ./main.o
+_ZN7Extsram22read_data_and_transmitEjjP9Bluetooth ./extsram.o
+                                                  ./serial.o
+_ZN7Extsram8set_dataEh                            ./extsram.o
+_ZN7Extsram9read_modeEv                           ./extsram.o
+_ZN7ExtsramC1EP9Bluetooth                         ./extsram.o
+                                                  ./main.o
+_ZN7ExtsramC1Ev                                   ./extsram.o
+                                                  ./serial.o
+                                                  ./main.o
+_ZN7ExtsramC2EP9Bluetooth                         ./extsram.o
+_ZN7ExtsramC2Ev                                   ./extsram.o
+_ZN7Timer163ticEv                                 ./timers.o
+_ZN7Timer163tocEv                                 ./timers.o
+_ZN7Timer164initENS_10timer_mode1vENS_9prescaler1vE ./timers.o
+_ZN7Timer16C1ENS_8timer_no1vE                     ./timers.o
+_ZN7Timer16C2ENS_8timer_no1vE                     ./timers.o
+_ZN8Emulator11tmp_str_sizE                        ./emulator.o
+_ZN8Emulator17read_eeprom_imageEP9Bluetooth       ./emulator.o
+                                                  ./serial.o
+_ZN8Emulator21eeprom1_image_addressE              ./emulator.o
+                                                  ./serial.o
+                                                  ./main.o
+                                                  ./extsram.o
+_ZN8Emulator21eeprom2_image_addressE              ./emulator.o
+                                                  ./serial.o
+_ZN8Emulator21eeprom3_image_addressE              ./emulator.o
+                                                  ./serial.o
+_ZN8Emulator23write_data_to_flash_memEP9Bluetooth ./emulator.o
+_ZN9Bluetooth10put_lint_sEmh                      ./bluetooth.o
+_ZN9Bluetooth11put_c_arrayEPch                    ./bluetooth.o
+                                                  ./serial.o
+_ZN9Bluetooth11put_raw_intEi                      ./bluetooth.o
+_ZN9Bluetooth12put_raw_lintEm                     ./bluetooth.o
+_ZN9Bluetooth12put_raw_uintEj                     ./bluetooth.o
+_ZN9Bluetooth2atEv                                ./bluetooth.o
+_ZN9Bluetooth5get_sEPch                           ./bluetooth.o
+                                                  ./main.o
+_ZN9Bluetooth7put_s_nEPKc                         ./bluetooth.o
+                                                  ./serial.o
+_ZN9Bluetooth9put_int_sEih                        ./bluetooth.o
+                                                  ./serial.o
+_ZN9Bluetooth9put_s_p_nEPKc                       ./bluetooth.o
+                                                  ./serial.o
+_ZN9BluetoothC1EmNS_5usartE                       ./bluetooth.o
+                                                  ./main.o
+_ZN9BluetoothC2EmNS_5usartE                       ./bluetooth.o
+__bad_interrupt                                   /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__bss_end                                         /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+__ctors_end                                       /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+__data_end                                        /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+__divmodhi4                                       /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+                                                  ./serial.o
+__divmodsi4                                       /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+__divsf3                                          /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o)
+                                                  ./timers.o
+__divsf3_pse                                      /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+__divsf3x                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_clear_bss.o)
+                                                  ./uart.o
+                                                  ./main.o
+                                                  ./emulator.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_copy_data.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+                                                  ./timers.o
+                                                  ./serial.o
+                                                  ./main.o
+                                                  ./extsram.o
+                                                  ./emulator.o
+__do_global_ctors                                 /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+                                                  ./main.o
+                                                  ./emulator.o
+__fixunssfsi                                      /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+                                                  ./timers.o
+__floatsisf                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(floatsisf.o)
+__floatunsisf                                     /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(floatsisf.o)
+                                                  ./timers.o
+__fp_inf                                          /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+__fp_nan                                          /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+__fp_pscA                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+__fp_pscB                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+__fp_round                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3.o)
+__fp_split3                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+__fp_splitA                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+__fp_szero                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(divsf3x.o)
+__fp_zero                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+__heap_end                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__init                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__mulohisi3                                       /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+__mulsf3                                          /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+                                                  ./timers.o
+__mulsf3_pse                                      /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+__mulsf3x                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+__mulshisi3                                       /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+__muluhisi3                                       /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_mulshisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+__negsi2                                          /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_negsi2.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+__stack                                           /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__tablejump2__                                    /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_tablejump2.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_ctors.o)
+__udivmodhi4                                      /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodhi4.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodsi4.o)
+                                                  ./uart.o
+                                                  ./main.o
+__ultoa                                           /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o)
+                                                  ./bluetooth.o
+__ultoa_common                                    /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o)
+__ultoa_ncheck                                    /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o)
+__umulhisi3                                       /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_muluhisi3.o)
+                                                  ./timers.o
+__utoa                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa.o)
+                                                  ./bluetooth.o
+__utoa_common                                     /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa_ncheck.o)
+__utoa_ncheck                                     /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa.o)
+                                                  ./extsram.o
+__vector_1                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_10                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_11                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_12                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_13                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_14                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_15                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_16                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_17                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_18                                       ./uart.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_19                                       ./uart.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_2                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_20                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_21                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_22                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_23                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_24                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_25                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_26                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_27                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_28                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_29                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_3                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_30                                       ./uart.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_31                                       ./uart.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_32                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_33                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_34                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_4                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_5                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_6                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_7                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_8                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_9                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vector_default                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+__vectors                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+_div                                              /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_divmodhi4.o)
+_exit                                             /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+dbg                                               ./main.o
+exit                                              /usr/lib/gcc/avr/4.9.2/avr51/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+main                                              ./main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/crtatmega128.o
+rand                                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+                                                  ./extsram.o
+rand_r                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+srand                                             /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(rand.o)
+strcat                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcat.o)
+                                                  ./extsram.o
+strchr                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strchr.o)
+                                                  ./serial.o
+strcmp                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+                                                  ./serial.o
+strcpy                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+                                                  ./extsram.o
+strrev                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(strrev.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa_ncheck.o)
+uart0_available                                   ./uart.o
+                                                  ./bluetooth.o
+uart0_flush                                       ./uart.o
+                                                  ./bluetooth.o
+uart0_getc                                        ./uart.o
+                                                  ./bluetooth.o
+uart0_init                                        ./uart.o
+                                                  ./bluetooth.o
+uart0_peek                                        ./uart.o
+uart0_putc                                        ./uart.o
+                                                  ./bluetooth.o
+uart0_puts                                        ./uart.o
+                                                  ./bluetooth.o
+uart0_puts_p                                      ./uart.o
+                                                  ./bluetooth.o
+uart1_available                                   ./uart.o
+                                                  ./bluetooth.o
+uart1_flush                                       ./uart.o
+                                                  ./bluetooth.o
+uart1_getc                                        ./uart.o
+                                                  ./bluetooth.o
+uart1_init                                        ./uart.o
+                                                  ./bluetooth.o
+uart1_peek                                        ./uart.o
+uart1_putc                                        ./uart.o
+                                                  ./bluetooth.o
+uart1_puts                                        ./uart.o
+                                                  ./bluetooth.o
+uart1_puts_p                                      ./uart.o
+                                                  ./bluetooth.o
+ultoa                                             /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(ultoa.o)
+utoa                                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr51/libc.a(utoa.o)
