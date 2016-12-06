@@ -16,14 +16,6 @@ public:
 	}
 };
 
-class Baza2 : public Baza
-{
-public:
-   void pisz()
-   {
-      std::cout << "Tu funkcja pisz z klasy Baza2" << std::endl;
-   }
-};
 
 int main(){
 	   Baza k = Baza("rafal");
